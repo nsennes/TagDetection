@@ -1,6 +1,6 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: train/images
+val: valid/images
+test: test/images
 
 nc: 4
 names: ['PO no', 'part no', 'qty', 'tags']
@@ -11,3 +11,4 @@ roboflow:
   version: 2
   license: CC BY 4.0
   url: https://universe.roboflow.com/senniverse/tag-mock-data-654-edition/dataset/2
+  
